@@ -1,0 +1,33 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+p{
+    display: inline;
+    background-color: bisque;
+    padding: 20px;
+    padding: 7px 12px;
+    margin-top: 11px;
+    border-radius: 11px;
+}
+
+.top-bar{
+    padding: 17px 8px;
+    text-align: end;
+    background: black;
+    height: 10vh;
+}
+
+
+main{
+    height: 75vh;
+    background-color: azure;
+}
+
+footer{
+    height: 15vh;
+    background-color: aqua;
+}
