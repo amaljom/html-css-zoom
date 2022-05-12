@@ -5,13 +5,14 @@
     box-sizing: border-box;
 }
 
-p{
-    display: inline;
-    background-color: bisque;
-    padding: 20px;
-    padding: 7px 12px;
-    margin-top: 11px;
-    border-radius: 11px;
+
+.top-bar button{
+    font-size: 15px;
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 9px;
+    color: #f9eded;
+    background-color: #767676;
 }
 
 .top-bar{
@@ -32,8 +33,14 @@ main{
     justify-content: space-between;
     overflow: auto;
 }
-
-
+p{
+    color: #f9eded;
+    padding: 5px;
+    background-color: rgb(64 51 51 / 40%);
+    position: absolute;
+    border-radius: 5px;
+    bottom: 0;
+}
 .immagine-main{
     background-image: url(https://i0.wp.com/www.giacomocusano.com/wp-content/uploads/2016/07/coastal-wash-web.jpg?resize=1024%2C640&ssl=1);
     width: 12vw;
@@ -42,10 +49,70 @@ main{
     background-repeat: no-repeat;
     flex-wrap: wrap;
     margin-top: 10px;
+    position: relative;
 }
 
 
 footer{
     height: 15vh;
-    background-color: aqua;
+    background-color: #272828;
+    display: flex;
+    justify-content: space-between;
+}
+
+.bottom-bar{
+    padding-left: 40px;
+    padding-top: 20px;
+}
+.botton-icon{
+    font-size: 25px;
+    border: none;
+    outline: none;
+    background: none;
+    color: white;
+    padding: 5px;
+    cursor: pointer;
+
+}
+
+.botton-icon-special{
+    font-size: 25px;
+    border: none;
+    outline: none;
+    background: none;
+    color: rgb(142, 250, 42);
+    padding: 5px;
+    cursor: pointer;
+}
+.botton-freccia{
+    font-size: 14px;
+    border: none;
+    outline: none;
+    background: none;
+    color: white;
+    padding: 5px;
+    position: relative;
+    top: -16px;
+}
+
+
+.footer-sez1{
+    display: flex;
+}
+span{
+    display:flow-root;
+    color: aliceblue;
+    
+}
+
+.footer-sez2{
+    display: flex;
+
+}
+
+.last-button{
+    padding: 47px;
+    background: grey;
+    color: red;
+    font-size: larger;
 }
