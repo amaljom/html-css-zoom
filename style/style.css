@@ -23,9 +23,27 @@ p{
 
 
 main{
+    padding: 0px 113px;
     height: 75vh;
-    background-color: azure;
+    background-color: black;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    overflow: auto;
 }
+
+
+.immagine-main{
+    background-image: url(https://i0.wp.com/www.giacomocusano.com/wp-content/uploads/2016/07/coastal-wash-web.jpg?resize=1024%2C640&ssl=1);
+    width: 12vw;
+    height: 16vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+
 
 footer{
     height: 15vh;
